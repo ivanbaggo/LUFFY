@@ -60,13 +60,11 @@ LUFFY/
 - **FSDP Training**: Model loading and distributed training setup
 - **Data Processing**: Optimize batch dimension operations, extend tensor type/shape support, and validate invalid dimensions
 
-### 📝 Complete TODO List
+### Complete TODO List
 
 - [ ] **luffy/deepscaler/utils.py:45** - Add logging for API calls and errors
 - [ ] **luffy/deepscaler/utils.py:46** - Support batch processing for multiple prompts
 - [ ] **luffy/deepscaler/utils.py:47** - Add timeout configuration for API calls
-- [ ] **luffy/deepscaler/utils.py:66** - Extend basic exception handling to cover different API errors and retry exhaustion
-- [ ] **luffy/deepscaler/utils.py:75** - Validate responses before extracting text
 - [ ] **luffy/deepscaler/utils.py:107** - Implement Vertex AI initialization and authentication
 - [ ] **luffy/deepscaler/utils.py:108** - Configure safety settings for content generation
 - [ ] **luffy/deepscaler/utils.py:109** - Set up GenerativeModel with proper system instructions
